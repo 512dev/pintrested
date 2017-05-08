@@ -11,9 +11,9 @@
   <body>
   <%= render 'home/header'  %>
     <div class="conatiner">
-    	<%= flash.each do |name, msg| %>
-    		<%=content_tag(:div msg, class: "modal-content")  %>
-    	<%= end %> 
+    	<% flash.each do |name, msg| %>
+    		<%= content_tag( :div, msg, class: "modal modal-content")  %>
+    	<% end %> 
     	<%= yield %>
     </div>
     
