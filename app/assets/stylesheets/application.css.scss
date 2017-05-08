@@ -1,0 +1,17 @@
+.jumbotron{
+	background-color: blue;
+
+}
+.jumbotron>.btn{
+	margin: 20px;
+	text-align: center;
+	position: relative;
+}
+body{
+	background-color: #fa9fb9;
+}
+
+
+@import "materialize";
+//= require material_icons
+
