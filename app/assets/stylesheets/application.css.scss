@@ -10,7 +10,16 @@
 body{
 	background-color: #fa9fb9;
 }
+.shared{
+	float: right;
+}
+.shared a{
+	margin-bottom: 10px;
+}
 
+#form{
+	width:50%;
+}
 
 @import "materialize";
 //= require material_icons

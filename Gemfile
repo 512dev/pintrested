@@ -5,8 +5,6 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
-
-
 gem 'rails', '~> 5.1.0'
 gem 'railties'
 gem 'materialize-sass'
@@ -16,6 +14,7 @@ gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.2'
 gem 'jquery-rails'
+gem 'jquery-turbolinks'
 gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 gem 'devise', git: 'https://github.com/gogovan/devise.git', branch: 'rails-5.1'
